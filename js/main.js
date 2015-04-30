@@ -1,7 +1,8 @@
 require.config({
     waitSeconds: 20,
     paths: {
-        'ionic': '../lib/ionic/js/ionic.bundle'
+        'ionic': '../lib/ionic/js/ionic.bundle',
+        'app':'app'
     },
     shim: {
         'ionic': {
@@ -15,5 +16,5 @@ require([
         'app'
     ],
     function (ionic) {
-        console.log("OK");
+        console.log("ionic seed ok");
     });
