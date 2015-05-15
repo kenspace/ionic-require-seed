@@ -1,10 +1,11 @@
-'use strict';
 define([
     'ionic'
-], function (ionic) {
+], function () {
+    'use strict';
     angular.module('starter.index', [])
-        .controller('IndexCtrl', function () {
-            console.log('IndexCtrl OK')
+        .controller('IndexCtrl', function (service) {
+            console.log('IndexCtrl OK');
+            service.init();
         });
 });
 
