@@ -1,0 +1,1 @@
+define(["ionic"],function(){"use strict";angular.module("starter.services",[]).factory("service",[function(){var a={init:function(){console.log("service is ok!")}};return a}])});

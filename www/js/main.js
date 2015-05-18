@@ -1,7 +1,7 @@
 require.config({
     waitSeconds: 20,
     paths: {
-        'ionic': '../lib/ionic/js/ionic.bundle',
+        'ionic': '../lib/ionic/js/ionic.bundle.min',
         'app':'app'
     },
     shim: {

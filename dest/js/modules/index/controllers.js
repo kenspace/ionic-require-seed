@@ -1,0 +1,1 @@
+define(["ionic"],function(){"use strict";angular.module("starter.index",[]).controller("IndexCtrl",["service",function(a){console.log("IndexCtrl OK"),a.init()}])});
